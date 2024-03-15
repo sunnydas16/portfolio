@@ -1,0 +1,270 @@
+@font-face {
+    font-family: b;
+    src: url(/apercu-light-pro.ttf);
+}
+@font-face{
+    font-family: a;
+    src: url(/PPNeueMontreal-Medium.woff2);
+}
+@font-face {
+    font-family: c;
+    src: url(/roboto-flex-variable-full.ttf);
+}
+@font-face {
+    font-family: d;
+    src: url(/BerkeleyMono-Regular.woff2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port h1{
+    font-family: b;
+    letter-spacing: -1.6vh;
+    font-size: 20vh;
+    -webkit-text-stroke: 2px rgb(0, 0, 0);
+    color: transparent;
+}
+.year h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: b;
+    font-size: 10vh;
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 7vh;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.image1{
+    background-image: url(/final\ photo.png);
+    background-size: cover;
+    background-position: top;
+    height: 61vh;
+    width: 60vh;
+    border-radius: 1000px;
+}
+.about{
+    height: 73vh;
+    width: 90vh;
+    z-index: 9;
+}
+.about:hover h2{
+    transform: translateY(-100%);
+}
+.about h2{
+    font-family: c;
+    font-size: 7.3vw;
+}
+.about p{
+    margin-top: 2vh;
+    font-family: b;
+    font-size: 4vh;
+}
+.about h3{
+    margin-top: 2.5vh;
+    border-bottom: 2px solid;
+    font-size: 5vh;
+}
+.about h5{
+    margin-top: 1.5vh;
+    font-size: 4vh;
+}
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5vh;
+    position: relative;
+    flex-wrap: wrap;
+}
+.skills{
+    height: 73vh;
+    width: 90vh;
+}
+.skills h1{
+    font-family: c;
+    font-size: 15vh;
+    padding: 0vh 16vh;
+}
+.skills h3{
+    margin-top: 1vh;
+    font-family: b;
+    font-size: 9vh;
+}
+.img2{
+    height: 73vh;
+    width: 50vh;
+    background-image: url(/pngwing.com.png);
+    background-size: cover;
+}
+.page4{
+    height: 100vh;
+    width: 100%;
+    background-color: #FEC9B7;
+    position: relative;
+}
+.project{
+    height: 19vh;
+    width: 100%;
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: c;
+    font-size: 9vh;
+}
+
+.link {
+   height: 80vh;
+   width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+}
+.links{
+    height: 45vh;
+    width: 45vh;
+    position: relative;
+    transition: 0.2s;
+
+}
+.links img{
+    height: 45vh;
+    width: 45vh;
+    object-fit: cover;
+}
+.links h1{
+    height: 45vh;
+    width: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: b;
+    font-size: 8vh;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links a:hover{
+    font-size: 2.3vh;
+    transition: 0.2s;
+}
+.box a{
+    object-fit: cover;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.page5{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+}
+.cont{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    padding: 4vh 5vh;
+}
+.cont h1{
+    font-family: a;
+    font-size: 20vh;
+}
+.cont2{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.info{
+    height: 45vh;
+    width: 45vh;
+
+    
+}
+.info h1{
+    font-size: 10vh;
+    padding: 6vh 17vh;
+}
+.info h2{
+    font-size: 6vh;
+    padding: 3vh 7.2vh;
+}
+
+
+.info button{
+    padding: 3vh;
+    width: 20vh;
+    border-radius: 1000px;
+    color: white;
+    border-style: none;
+    background-color: black;
+    margin-left: 12vh;
+    margin-top: 4vh;
+    border-top-left-radius: 0;
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vh;
+}
+.b button>a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.page6{
+    height: 100vh;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ty h1{
+    font-size: 20vh;
+    font-family: b;
+    -webkit-text-stroke: 3px black;
+    color: transparent;
+    font-weight: 500;
+}
+
